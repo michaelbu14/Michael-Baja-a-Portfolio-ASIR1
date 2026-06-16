@@ -16,10 +16,10 @@ A lo largo del curso, se han consolidado competencias clave en:
 Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que demuestran la capacidad de diagnosticar, implementar y administrar soluciones de hardware tanto a nivel local como en la nube:
 
 ### 1. Instalación y Administración de un Hipervisor de Tipo 1 (VMware ESXi)
-* **Descripción:** despliegue y parametrización de un hipervisor nativo (*Bare-Metal*) para la consolidación de servidores virtuales independientes del sistema operativo anfitrión.
+* **Descripción:** despliegue y parametrización de un hipervisor nativo (Bare-Metal) para la consolidación de servidores virtuales independientes del sistema operativo anfitrión.
 * **Hitos técnicos:** instalación y configuración inicial del núcleo ESXi de VMware.
     * Acceso y dominio de la interfaz web de administración para la monitorización de recursos físicos (CPU, RAM, Almacenamiento).
-    * Creación y aprovisionamiento de *Datastores* (Almacenes de datos) dedicados de forma exclusiva para el aislamiento de imágenes ISO y discos de máquinas virtuales.
+    * Creación y aprovisionamiento de Datastores (Almacenes de datos) dedicados de forma exclusiva para el aislamiento de imágenes ISO y discos de máquinas virtuales.
     * Planificación del despliegue de servidores virtuales multi-plataforma (estructuras Linux y MS Windows).
     * Habilitación y auditoría de la gestión remota segura mediante consola de comandos a través del protocolo SSH (uso de clientes como PuTTY).
 
@@ -29,7 +29,7 @@ Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que 
     * Elección y dimensionamiento de recursos de cómputos optimizados (aprovisionamiento de vCPUs, memoria RAM y almacenamiento virtualizado).
     * Configuración de arquitecturas base bajo sistemas operativos Linux de nivel corporativo (Ubuntu Server 24.04 LTS).
     * Diseño y gestión de redes virtuales y asignación dinámica/estática de direccionamiento IP público.
-    * Securización del entorno mediante la implementación de *Network Security Groups* (NSG) que actúan como un cortafuegos perimetral, aplicando reglas estrictas por prioridad (restricción total de tráfico entrante, permitiendo únicamente el acceso cifrado mediante el puerto 22 para SSH).
+    * Securización del entorno mediante la implementación de Network Security Groups (NSG) que actúan como un cortafuegos perimetral, aplicando reglas estrictas por prioridad (restricción total de tráfico entrante, permitiendo únicamente el acceso cifrado mediante el puerto 22 para SSH).
     * Autenticación robusta sin contraseña mediante el uso de pares de claves criptográficas asimétricas (claves privadas `.pem`).
 
 ### 3. Estrategias Avanzadas de Copias de Seguridad y Redundancia de Datos
@@ -37,7 +37,7 @@ Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que 
 * **Hitos técnicos:**
     * Preparación y aprovisionamiento de múltiples unidades de almacenamiento secundario en el sistema.
     * Implementación de esquemas de tolerancia a fallos mediante la configuración de un arreglo de discos RAID 1 por software, garantizando el espejo de datos idéntico frente a averías de un disco físico.
-    * Instalación y configuración del software de respaldo corporativo *Uranium Backup*.
+    * Instalación y configuración del software de respaldo corporativo Uranium Backup.
     * Automatización y ejecución de un ciclo completo de copias de seguridad: Full Backup (respaldo completo de base), Backup Diferencial (acumulación de cambios desde el último completo) y Backup Incremental (copia exclusiva de modificaciones diarias).
     * Pruebas de restauración y recuperación de datos borrados para verificar la integridad de las copias.
 
