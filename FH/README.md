@@ -36,7 +36,7 @@ Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que 
 * **Descripción:** diseño e implementación de políticas de respaldo empresarial tolerantes a fallos de hardware y desastres lógicos.
 * **Hitos técnicos:**
     * Preparación y aprovisionamiento de múltiples unidades de almacenamiento secundario en el sistema.
-    * Implementación de esquemas de tolerancia a fallos mediante la configuración de un arreglo de discos **RAID 1 por software**, garantizando el espejo de datos idéntico frente a averías de un disco físico.
+    * Implementación de esquemas de tolerancia a fallos mediante la configuración de un arreglo de discos RAID 1 por software, garantizando el espejo de datos idéntico frente a averías de un disco físico.
     * Instalación y configuración del software de respaldo corporativo *Uranium Backup*.
     * Automatización y ejecución de un ciclo completo de copias de seguridad: Full Backup (respaldo completo de base), Backup Diferencial (acumulación de cambios desde el último completo) y Backup Incremental (copia exclusiva de modificaciones diarias).
     * Pruebas de restauración y recuperación de datos borrados para verificar la integridad de las copias.
