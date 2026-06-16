@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Fan Zone Fórmula 1</title>
+		<meta charset="utf-8">
+    <style type="text/css">
+            input[type='text']:valid { border: 2px solid green; }
+            input[type='text']:invalid { border: 2px solid red; }
+            input[type='text']:focus { border: 2px solid orange; outline: none; }
+        </style>
+    </head>
+	
+    <body style="background-color:dimgrey;">
+
+    <a id="inicio"><h1 style="text-align: center; color: darkblue; text-decoration: underline;">FAN ZONE FÓRMULA 1</h1></a>
+     <p style="text-align: center;">
+      ¡Bienvenido al lugar para aficionados de la Fórmula 1:<br>
+        Aquí podrás encontrar distintos formularios para crear un <strong>Ficha de Piloto Virtual, encuesta sobre lo que te gusta la F1 y más.</strong>
+    </p>
+
+     <table style="margin: auto; background-color: bisque; border: 4px dashed orange; width: 600px;">
+        <caption style="color: darkblue; font-weight: bold;">Buscador Rápido</caption>
+          <form action="http://www.google.com/search" method="get" target="text/plain">
+            <tr>
+              <td style="text-align: center; padding: 15px;">
+               <label>Busca noticias de F1 en Google:</label>
+                  <input type="search" name="q" placeholder="Ej. Reglamento F1" size="30">
+                  <input type="hidden" name="hl" value="es">
+                  <input type="submit" value="Buscar">
+                </td>
+            </tr>
+          </form>
+    </table>
+
+    <br><br>
+
+    <form action="mailto:fórmula1@f1.com" method="post" enctype="text/plain">
+            
+      <fieldset style="border: 5px dotted darkblue; background-color: darkgrey; margin: auto; width: 750px;">
+        <legend style="margin: auto; background-color: red; color: white; padding: 5px 15px;">
+          <h2 style="text-align: center; font-family: Tahoma;text-decoration: underline;">1. FICHA DE PILOTO VIRTUAL</h2>
+        </legend>
+        <table style="margin: auto; width: 100%; border-spacing: 10px; color: white;">
+          <tr>
+            <td style="text-align: right;">
+             <strong><label for="u">Username (login):</label></strong>
+            </td>
+            <td>
+              <input type="text" name="login" id="u" size="25" placeholder="Solo minúsculas (máx 15)" pattern="[a-z]{1,15}" title="Solo letras minúsculas, no números, máximo 15 caracteres" required autofocus autocomplete="off">
+            </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label for="c">Contraseña de Boxes:</label></strong>
+              </td>
+              <td>
+                <input type="password" name="contra" id="c" size="25" maxlength="12" 
+                placeholder="Entre 8 y 12 caracteres" required pattern="[A-Za-z0-9!?\-]{8,12}" title="Puede contener mayúsculas, minúsculas, números y los caracteres !?-. Entre 8 y 12 caracteres">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label for="e">E-mail del Piloto:</label></strong>
+              </td>
+              <td>
+                <input type="email" name="correo" id="e" placeholder="piloto@f1.com" required>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label for="t">Teléfono (con +34):</label></strong>
+              </td>
+              <td>
+                <input type="tel" name="movil" id="t" pattern="[\+][0-9]{11}" maxlength="12" placeholder="+34123456789" title="Introduce tu teléfono con formato internacional (+34...)">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label for="web">Web de tu Escudería (URL):</label></strong>
+              </td>
+              <td>
+                <input type="url" name="blog_url" id="web" placeholder="http://www.tuweb.com">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label>Elige tu Escudería favorita:</label></strong>
+              </td>
+              <td>
+                <input name="equipo" list="equipos_f1" placeholder="Empieza a escribir...">
+                  <datalist id="equipos_f1">
+                    <option value="Red Bull"></option>
+                    <option value="Ferrari"></option>
+                    <option value="Mercedes"></option>
+                    <option value="Aston Martin"></option>
+                    <option value="McLaren"></option>
+                    <option value="Williams"></option>
+                    <option value="Haas"></option>
+                  </datalist>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label>Estado de Inscripción:</label></strong>
+              </td>
+              <td>
+                <input type="text" value="TEMPORADA 2026" size="15" readonly>
+                <input type="text" value="Licencia: Rookie" size="15" disabled>
+              </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <br>
+
+    <fieldset style="border: 5px dotted darkblue; background-color: darkgrey; margin: auto; width: 750px;">
+      <legend style="margin: auto; background-color: red; color: white; padding: 5px 15px;">
+        <h2 style="text-align: center; font-family: Tahoma;text-decoration: underline;">2. ENCUESTA PARA FANS</h2>
+      </legend>
+        <table style="margin: auto; width: 100%; border-spacing: 15px; color: white;">
+          <tr>
+            <td style="vertical-align: top; background-color: #444; padding: 15px; width: 50%;">
+              <strong><label style="color: gold;">¿Con qué frecuencia ves la F1?</label><br><br></strong>
+                <input type="radio" name="frecuencia" value="siempre" id="f1" checked>
+              <label for="f1">Todos los Grandes Premios</label><br>
+                <input type="radio" name="frecuencia" value="importantes" id="f2">
+              <label for="f2">Solo carreras importantes</label><br>
+                <input type="radio" name="frecuencia" value="resumenes" id="f3">
+              <label for="f3">Solo veo resúmenes</label>
+            </td>
+            <td style="vertical-align: top; background-color: #444; padding: 15px;width: 50%;">
+              <strong><label style="color: gold;">Tus circuitos españoles favoritos:</label><br><br></strong>
+                  <input type="checkbox" name="circuitos" value="montmelo" id="c1" checked>
+              <label for="c1">Montmeló (Barcelona)</label><br>
+                  <input type="checkbox" name="circuitos" value="valencia" id="c2">
+              <label for="c2">Valencia (Urbano)</label><br>
+                  <input type="checkbox" name="circuitos" value="madrid" id="c3" disabled>
+              <label for="c3" style="color: gray;">Madrid IFEMA (Próximamente)</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center; background-color: #444; padding: 15px;">
+            <strong><label style="color: gold;">Elige tus Eras / Motores favoritos de la F1 (Usa Ctrl para elegir varios):</label><br><br></strong>
+              <select name="eras" size="7" multiple style="background-color: bisque; padding: 5px; border: 3px solid orange;">
+                <optgroup label="Era Clásica">
+                  <option value="v12">Motores V12 (Sonido potente)</option>
+                  <option value="v10" selected>Motores V10 (Años 2000)</option>
+                </optgroup>
+                <optgroup label="Era Moderna">
+                  <option value="v8">Motores V8 (Dominio Red Bull)</option>
+                  <option value="v6">Era Híbrida V6 (Dominio Mercedes)</option>
+                  <option value="2026" disabled>Nueva Era 2026</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center; padding-top: 10px;">
+              <strong><label style="color: lightgreen;">¿Qué cambiarías del reglamento actual?</label><br><br></strong>
+                <textarea name="opinion_reglamento" rows="4" cols="60" placeholder="Escribe aquí tu opinión (Mínimo 10 caracteres, Máximo 150)" wrap="soft" minlength="10" maxlength="150"></textarea>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <br>
+      
+      <fieldset style="border: 5px dotted darkblue; background-color: darkgrey; margin: auto; width: 750px;">
+        <legend style="margin: auto; background-color: red; color: white; padding: 5px 15px;">
+          <h2 style="text-align: center; font-family: Tahoma; text-decoration: underline;">3. RESERVA EXPERIENCIA Y MULTIMEDIA</h2>
+        </legend>
+          <table style="margin: auto; width: 100%; border-spacing: 10px; color: white;">
+            <tr>
+              <td style="text-align: right;">
+               <strong><label for="fecha">Día de visita al Paddock:</label></strong>
+              </td>
+              <td>
+                <input type="date" name="fecha_reserva" id="fecha" min="2026-01-01" max="2026-12-31" value="2026-05-15">
+              </td>
+              <td style="text-align: right;">
+                <strong><label for="hora">Hora de llegada:</label></strong>
+              </td>
+              <td>
+                <input type="time" name="hora_reserva" id="hora" min="09:00:00" max="20:00:00" value="10:00:00" step="3600">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label>Color de tu monoplaza personalizado:</label></strong>
+              </td>
+              <td colspan="3">
+                <input type="color" name="color_coche" value="red">
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">
+                <strong><label for="ganas">Nivel de ganas de vivir la experiencia</label></strong>
+              </td>
+              <td colspan="3">
+                <input type="range" name="emocion" min="0" max="10" value="5" step="0.5" id="ganas" list="niveles" oninput="final.value=ganas.value">
+                  <output name="final" for="ganas" style="color: gold;">5</output>
+                  <datalist id="niveles">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                  </datalist>
+              </td>
+            </tr>
+            <tr>
+              <table style="margin: auto; border: 1px solid white; color: white; background-color:dimgray; text-align: center;">
+                    <tr>
+                        <td style="border: 1px solid white; padding: 5px;">Nº Entradas</td>
+                        <td style="border: 1px solid white; padding: 5px;"></td>
+                        <td style="border: 1px solid white; padding: 5px;">Precio por entrada</td>
+                        <td style="border: 1px solid white; padding: 5px;"></td>
+                        <td style="border: 1px solid white; padding: 5px;">Total a pagar</td>
+                        <td style="border: 1px solid white; padding: 5px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid white; padding: 5px;">
+                            <input type="number" id="entradas" value="1" max="10"
+                            oninput="total.value=(entradas.value)*(precio.value)">
+                        </td>
+                        <td style="border: 1px solid white; padding: 5px;">
+                            *
+                        </td>
+                        <td style="border: 1px solid white; padding: 5px;">
+                            <input type="text" id="precio" value="250" readonly>
+                        </td>
+                        <td style="border: 1px solid white; padding: 5px;">
+                            = 
+                        </td>
+                        <td style="border: 1px solid white; padding: 5px; color: gold; font-weight: bold; font-size: 18px;">
+                            <output name="total" for="entradas precio">0</output>
+                        </td>
+                        <td style="border: 1px solid white; padding: 5px;">
+                            €
+                        </td>
+                    </tr>
+              </table>
+            </tr>
+            <br>
+        </table>
+      </fieldset>
+      
+      <br>
+
+      <table style="margin: auto; width: 400px; text-align: center; background-color: darkgrey; border: 3px solid darkblue; padding: 10px;">
+        <tr>
+          <td>
+            <strong><button type="submit" name="Envio" value="Enviar Datos" style="background-color: green; color: white; padding: 10px 20px;">
+              <img src="verde.png" width="80" height="50"><br>
+              ENVIAR DATOS
+            </button></strong>
+          </td>
+          <td>
+            <strong><button type="reset" name="Borrar" value="Restablecer" style="background-color: darkred; color: white; padding: 10px 20px;">
+              <img src="rojo.jpg" width="80" height="50"><br>
+              RESETEAR DATOS
+            </button></strong>
+          </td>
+        </tr>
+      </table>
+
+
+      </form>
+
+      <br><br>
+
+      <form name="archivo" action="mailto:fórmula1@f1.com.es" method="post" enctype="multipart/form-data">
+      <fieldset style="width: 600px;margin: auto;background-color: darkgrey;border: 3px solid darkcyan;">
+       <legend style="border: 3px solid darkseagreen;padding: 5px;color: white; background-color: lightsalmon;"><h3>Adjunta tus imágenes relacionadas con la Fórmula 1</h2></legend>
+          <strong><label>Ajuntar imágenes</label></strong><br>
+          <input type="file" name="fotos_usuario" accept="image/*" multiple>
+      <br>
+      <input type="submit" name="mandar1" value="Enviar datos">
+      <input type="reset" name="limpiar1" value="Borrar datos">
+      </fieldset>
+    </form>
+
+
+    <br><br>
+    <pre style="text-align: center; color: white; font-family: Impact;">
+    <a href="../Índice Proyecto Personal Michael(1).html">ÍNDICE</a>  |  <a href="../Historia F1 Proyecto Personal Michael(2).html">HISTORIA</a>|  <a href="../Reglamento Proyecto Personal Michael(3).html">REGLAMENTO</a>  |  <a href="../Pilotos Históricos(4)/Pilotos Históricos Proyecto Personal Michael.html">PILOTOS HISTÓRICOS</a>   | PILOTOS ESPAÑOLES  
+    </pre>
+
+    <a href="#inicio"><pre style="text-align: center; font-family: Impact;">INICIO DE PÁGINA</pre></a>
+
+
+    </body>
+</html>
