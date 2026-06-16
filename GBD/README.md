@@ -1,6 +1,6 @@
-# 🗄️ Módulo: Gestión de Bases de Datos (GBD)
+# Módulo: Gestión de Bases de Datos (GBD)
 
-## 🧠 Resumen Teórico
+## Resumen Teórico
 Durante este módulo he estudiado el ciclo de vida de la información, desde su gestión básica hasta el diseño avanzado de sistemas de almacenamiento. Los conceptos fundamentales adquiridos incluyen:
 
 * **Sistemas de Información:** Comprensión de la información como recurso estratégico, sus cualidades (precisión, oportunidad, compleción, coherencia y seguridad) y su clasificación en niveles operacionales, tácticos y estratégicos.
