@@ -1,6 +1,6 @@
-# 🖥️ Módulo: Implantación de Sistemas Operativos (ISO)
+# Módulo: Implantación de Sistemas Operativos (ISO)
 
-## 🧠 Resumen General del Aprendizaje
+## Resumen General del Aprendizaje
 A lo largo de este primer curso en el módulo de ISO, he adquirido una base técnica sólida que abarca desde la virtualización hasta la administración avanzada y recuperación de desastres. He aprendido a desplegar entornos heterogéneos instalando sistemas clientes y servidores (Windows Server 2022/2025, Ubuntu, Fedora, AlmaLinux), y a realizar actualizaciones complejas, como forzar el paso a Windows 11 emulando hardware TPM 2.0. 
 
 A nivel de infraestructura, he dominado el particionado de discos con utilidades como `fdisk` y `GParted`, y el escalado empresarial utilizando volúmenes lógicos (LVM) y RAID. En cuanto a la administración diaria, he configurado redes, enrutamientos (ICS) y firewalls (UFW y Windows Defender), además de gestionar cuentas de usuario, grupos y permisos de acceso tanto en la consola de Linux como mediante las directivas NTFS en Windows. Finalmente, he aprendido a enfrentarme a sistemas rotos o bloqueados, auditando bases de datos SAM de contraseñas de forma offline y reparando sectores de arranque sobreescritos. 
