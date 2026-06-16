@@ -1,4 +1,4 @@
-# Portfolio ASIR - Primer Curso 💻
+# Portfolio ASIR - Primer Curso 
 
 **Autor:** Michael Adrián Bajaña Uriña
 
