@@ -1,4 +1,4 @@
-Módulo: Planificación y Administración de Redes (PAR)
+# 🌐 Módulo: Planificación y Administración de Redes (PAR)
 
 ## 🧠 Resumen General del Aprendizaje
 Durante este curso, he adquirido una visión técnica e integral de las redes de telecomunicaciones, abarcando desde el diseño físico hasta la capa de aplicación. He asimilado los fundamentos de transmisión y atenuación, el cálculo avanzado de subredes (Subnetting/VLSM), y los estándares de cableado estructurado ANSI/TIA-568 e ISO/IEC 11801. Además, he estudiado a fondo las tecnologías inalámbricas, analizando los estándares Wi-Fi 6, configuraciones en malla (Mesh), Bluetooth y protocolos IoT como Zigbee.
