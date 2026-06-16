@@ -1,17 +1,17 @@
-# 🌐 Módulo: Lenguajes de Marcas y Sistemas de Gestión de Información (LMSGI)
+# Módulo: Lenguajes de Marcas y Sistemas de Gestión de Información (LMSGI)
 
-## 🏎️ Proyecto Destacado: Portal Web de Fórmula 1
+## Proyecto Destacado: Portal Web de Fórmula 1
 Este repositorio incluye un proyecto web completo, estructurado en múltiples páginas HTML y dedicado íntegramente al mundo de la Fórmula 1. El sitio demuestra la aplicación práctica de los lenguajes de marcas y hojas de estilo mediante las siguientes secciones:
-* **Historia y Evolución:** Uso de etiquetas semánticas y multimedia integrada, combinando textos estructurados con audios de motores y vídeos históricos.
-* **Reglamento y Normativa:** Estructuración de datos complejos mediante la anidación de listas ordenadas y desordenadas para clasificar normativas técnicas y deportivas.
-* **Pilotos y Circuitos:** Implementación de mapas de imágenes interactivos (`<map>` y `<area>`) para enlazar coordenadas específicas de los trazados españoles con contenido multimedia, además de integrar elementos externos mediante `iframe`.
-* **Merchandising:** Maquetación avanzada de catálogos de productos y listas de precios utilizando tablas estructuradas con combinación de celdas y filas (`rowspan` y `colspan`).
-* **Fan Zone:** Creación de formularios interactivos y accesibles con validaciones en HTML5 (uso de patrones, rangos, y tipos de entrada específicos como `email`, `tel` o `color`).
+* **Historia y Evolución:** uso de etiquetas semánticas y multimedia integrada, combinando textos estructurados con audios de motores y vídeos históricos.
+* **Reglamento y Normativa:** estructuración de datos complejos mediante la anidación de listas ordenadas y desordenadas para clasificar normativas técnicas y deportivas.
+* **Pilotos y Circuitos:** implementación de mapas de imágenes interactivos (`<map>` y `<area>`) para enlazar coordenadas específicas de los trazados españoles con contenido multimedia, además de integrar elementos externos mediante `iframe`.
+* **Merchandising:** maquetación avanzada de catálogos de productos y listas de precios utilizando tablas estructuradas con combinación de celdas y filas (`rowspan` y `colspan`).
+* **Fan Zone:** creación de formularios interactivos y accesibles con validaciones en HTML5 (uso de patrones, rangos, y tipos de entrada específicos como `email`, `tel` o `color`).
 
 ---
 
-## 🧠 Resumen General del Aprendizaje (HTML5 y CSS3)
-A lo largo de este módulo, se ha consolidado una base técnica sólida en el desarrollo web *Front-end*, dominando la separación entre el contenido (HTML) y la capa de presentación (CSS). Los conocimientos adquiridos abarcan:
+## Resumen General del Aprendizaje (HTML5 y CSS3)
+A lo largo de este módulo, se ha consolidado una base técnica sólida en el desarrollo web Front-end, dominando la separación entre el contenido (HTML) y la capa de presentación (CSS). Los conocimientos adquiridos abarcan:
 
 ### 1. Integración y Especificidad CSS
 * Aplicación de estilos en línea (`style`), estilos embebidos (`<style>`) y vinculación de hojas externas mediante la etiqueta `<link>` y la regla `@import`.
@@ -19,7 +19,7 @@ A lo largo de este módulo, se ha consolidado una base técnica sólida en el de
 * Implementación de hojas de estilo alternativas e interactivas para mejorar la accesibilidad del sitio.
 
 ### 2. Modelo de Cajas y Estructuración
-* Control detallado del modelo de cajas (Box Model) gestionando márgenes (`margin`), rellenos (`padding`), bordes perimetrales y dimensiones exactas de los elementos.
+* Control detallado del modelo de cajas gestionando márgenes (`margin`), rellenos (`padding`), bordes perimetrales y dimensiones exactas de los elementos.
 * Diseño y estilización de tablas de datos, controlando la visibilidad de celdas vacías (`empty-cells`) y el espaciado interno.
 
 ### 3. Unidades de Medida y Formatos de Color
