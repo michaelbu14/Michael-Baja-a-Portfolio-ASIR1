@@ -10,7 +10,7 @@ Durante este módulo he estudiado el ciclo de vida de la información, desde su 
 
 ---
 
-## 🚀 Prácticas y Modelado
+## Prácticas y Modelado
 He completado un ciclo de prácticas enfocado en el diseño profesional de bases de datos relacionales, utilizando herramientas de diagramación y software de gestión.
 
 ### 1. Modelado Conceptual y Lógico (Diagramas E/R)
