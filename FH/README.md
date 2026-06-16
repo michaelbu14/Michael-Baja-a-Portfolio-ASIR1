@@ -38,13 +38,13 @@ Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que 
     * Preparación y aprovisionamiento de múltiples unidades de almacenamiento secundario en el sistema.
     * Implementación de esquemas de tolerancia a fallos mediante la configuración de un arreglo de discos **RAID 1 por software**, garantizando el espejo de datos idéntico frente a averías de un disco físico.
     * Instalación y configuración del software de respaldo corporativo *Uranium Backup*.
-    * Automatización y ejecución de un ciclo completo de copias de seguridad: **Full Backup** (respaldo completo de base), **Backup Diferencial** (acumulación de cambios desde el último completo) y **Backup Incremental** (copia exclusiva de modificaciones diarias).
+    * Automatización y ejecución de un ciclo completo de copias de seguridad: Full Backup (respaldo completo de base), Backup Diferencial (acumulación de cambios desde el último completo) y Backup Incremental (copia exclusiva de modificaciones diarias).
     * Pruebas de restauración y recuperación de datos borrados para verificar la integridad de las copias.
 
 ### 4. Caracterización, Auditoría y Diagnóstico de Servidores Empresariales
 * **Descripción:** análisis físico, lógico y arquitectónico exhaustivo de un servidor en rack de alto rendimiento diseñado para entornos de producción corporativos (ej. HP ProLiant DL360 G7).
 * **Hitos técnicos:**
     * Auditoría de bajo nivel mediante el acceso y configuración de la utilidad de configuración basada en ROM (BIOS/UEFI) del servidor.
-    * Análisis del chasis y los flujos térmicos, documentando la distribución de los ventiladores redundantes de extracción activa (*FANS*).
-    * Diagnóstico preventivo mediante la monitorización del *Systems Insight Display* (SID), interpretando los indicadores de salud LED de los subsistemas críticos (procesadores, fuentes de alimentación PS1/PS2 y bancos de memoria RAM DIMM).
+    * Análisis del chasis y los flujos térmicos, documentando la distribución de los ventiladores redundantes de extracción activa (FANS).
+    * Diagnóstico preventivo mediante la monitorización del Systems Insight Display (SID), interpretando los indicadores de salud LED de los subsistemas críticos (procesadores, fuentes de alimentación PS1/PS2 y bancos de memoria RAM DIMM).
     * Estudio de las tecnologías de administración fuera de banda (OOB) independientes del sistema operativo principal para tareas de mantenimiento remoto.
