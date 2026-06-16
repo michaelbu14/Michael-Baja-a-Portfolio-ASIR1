@@ -16,13 +16,13 @@ A continuación, se presentan los trabajos prácticos que demuestran mi preparac
 
 ### 1. Plan Estratégico de Búsqueda de Empleo
 * **Descripción:** Presentación que detalla mi hoja de ruta para la inserción profesional. 
-* **Hitos:** * Definición del perfil de salida (Junior ASIR) y metas profesionales progresivas (desde soporte técnico nivel 1 hasta *Cloud System Architect* / *Infrastructure Manager*).
+* **Hitos:** Definición del perfil de salida (Junior ASIR) y metas profesionales progresivas (desde soporte técnico nivel 1 hasta *Cloud System Architect* / *Infrastructure Manager*).
   * Análisis técnico de ofertas reales en plataformas como LinkedIn, InfoJobs e Indeed, identificando los requisitos del mercado (Soporte técnico, Redes IP, Virtualización, Certificaciones Cloud AWS/Azure).
   * Creación de un cronograma de rutinas de búsqueda activa y adaptación de la carta de presentación.
 
 ### 2. Creación de Marca Personal: Currículum Vitae
 * **Descripción:** Elaboración de un Currículum Vitae optimizado y orientado al sector tecnológico.
-* **Hitos:** * Diseño estructurado resaltando formación académica, nivel de idiomas (Certificación B2 de Cambridge) y competencias digitales.
+* **Hitos:** Diseño estructurado resaltando formación académica, nivel de idiomas (Certificación B2 de Cambridge) y competencias digitales.
   * Enfoque directo en la aportación de valor a la empresa mediante una declaración de "Sobre mí" clara y concisa.
 
 ### 3. Gestión Laboral: Cálculo de Nóminas y Finiquitos
