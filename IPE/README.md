@@ -1,6 +1,6 @@
-# 💼 Módulo: Itinerario Personal para la Empleabilidad (IPE)
+# Módulo: Itinerario Personal para la Empleabilidad (IPE)
 
-## 🧠 Resumen General del Aprendizaje
+## Resumen General del Aprendizaje
 Este módulo me ha proporcionado las herramientas necesarias para comprender la realidad del mercado laboral en el sector informático y gestionar mi propia carrera profesional. A lo largo del curso, he adquirido competencias transversales que complementan mi perfil técnico como Administrador de Sistemas:
 
 * **Orientación Laboral y Marca Personal:** Autoconocimiento de fortalezas y debilidades, definición de objetivos profesionales a corto y largo plazo, y estrategias de posicionamiento en el mercado (Networking, LinkedIn, portales de empleo).
@@ -10,7 +10,7 @@ Este módulo me ha proporcionado las herramientas necesarias para comprender la 
 
 ---
 
-## 🚀 Proyectos y Evidencias
+## Proyectos y Evidencias
 
 A continuación, se presentan los trabajos prácticos que demuestran mi preparación para la inmersión en el mercado laboral:
 
