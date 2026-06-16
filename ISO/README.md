@@ -9,7 +9,7 @@ Como complemento indispensable, he integrado Git y GitHub en mi flujo de trabajo
 
 ---
 
-## 🚀 Prácticas Seleccionadas y su Importancia
+## Prácticas Seleccionadas y su Importancia
 
 Para este portfolio, he seleccionado las siete que mejor demuestran mi capacidad para resolver problemas complejos en entornos reales:
 
