@@ -17,7 +17,7 @@ Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que 
 
 ### 1. Instalación y Administración de un Hipervisor de Tipo 1 (VMware ESXi)
 * **Descripción:** Despliegue y parametrización de un hipervisor nativo (*Bare-Metal*) para la consolidación de servidores virtuales independientes del sistema operativo anfitrión.
-* **Hitos técnicos:** * Instalación y configuración inicial del núcleo ESXi de VMware.
+* **Hitos técnicos:** Instalación y configuración inicial del núcleo ESXi de VMware.
     * Acceso y dominio de la interfaz web de administración para la monitorización de recursos físicos (CPU, RAM, Almacenamiento).
     * Creación y aprovisionamiento de *Datastores* (Almacenes de datos) dedicados de forma exclusiva para el aislamiento de imágenes ISO y discos de máquinas virtuales.
     * Planificación del despliegue de servidores virtuales multi-plataforma (estructuras Linux y MS Windows).
