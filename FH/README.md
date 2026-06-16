@@ -1,6 +1,6 @@
-# 🔌 Módulo: Fundamentos de Hardware (FH)
+# Módulo: Fundamentos de Hardware (FH)
 
-## 🧠 Resumen General del Aprendizaje
+## Resumen General del Aprendizaje
 Este módulo proporciona una comprensión profunda de los componentes físicos y lógicos que constituyen las infraestructuras informáticas, abarcando desde la electrónica básica de un ordenador doméstico hasta arquitecturas complejas de servidores empresariales y entornos de computación en la nube. 
 
 A lo largo del curso, se han consolidado competencias clave en:
@@ -11,7 +11,7 @@ A lo largo del curso, se han consolidado competencias clave en:
 
 ---
 
-## 🚀 Proyectos Destacados y Evidencias Técnicas
+## Proyectos Destacados y Evidencias Técnicas
 
 Se han seleccionado cuatro laboratorios prácticos y auditorías esenciales que demuestran la capacidad de diagnosticar, implementar y administrar soluciones de hardware tanto a nivel local como en la nube:
 
